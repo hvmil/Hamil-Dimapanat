@@ -2,7 +2,7 @@
 import React from 'react'
 import Title from "./Title"
 import { HoverEffect } from "../../../components/ui/card-hover"
-import { SiAmazonaws, SiExpress, SiJavascript, SiMongodb, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiTypescript } from "react-icons/si"
+import { SiAmazonaws, SiExpress, SiGit, SiJavascript, SiMongodb, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiTypescript } from "react-icons/si"
 
 export default function () {
     const skills = [
@@ -39,8 +39,8 @@ export default function () {
             Icon: SiPostgresql
         },
         {
-            text: "SQL",
-            Icon: SiPostgresql
+            text: "GIT",
+            Icon: SiGit,
         },
     ]
 
