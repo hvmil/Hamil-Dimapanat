@@ -4,6 +4,9 @@ import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import { CanvasRevealEffectDemo } from "./components/Profile";
+import { GlobeDemo } from "./components/GlobeDemo";
+
 
 export default function page() {
   return (
@@ -16,6 +19,7 @@ export default function page() {
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
         <Projects />
+        <GlobeDemo/>
         <Footer />
       </div>
     </div>
