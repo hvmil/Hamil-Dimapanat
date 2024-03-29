@@ -39,7 +39,7 @@ export default function HeroSection() {
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
         </div>
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:left-10">
-          <a target="_blank" href="/Hamil_Dimapanat.pdf">
+          <a target="_blank" href="/hamil_dimapanat.pdf">
             <MovingBorderBtn
               borderRadius="0.5rem"
               className="p-3 font-semibold"
