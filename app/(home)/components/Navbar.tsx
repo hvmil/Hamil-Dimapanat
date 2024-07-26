@@ -7,7 +7,7 @@ import { SiGithub, SiInstagram, SiLinkedin } from "react-icons/si";
 export default function Navbar({className}:{className?: string}) {
   const socials = [
     {
-      link: "https://www.linkedin.com/in/hamil-dimapanat-1b6057167/",
+      link: "https://www.linkedin.com/in/hamil-d/",
       label: "LinkedIn",
       icon: SiLinkedin,
     },
