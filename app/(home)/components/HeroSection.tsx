@@ -15,7 +15,7 @@ export default function HeroSection() {
           </span>{" "}
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
-          New York-Based Fullstack Developer with a passion for creating and
+          New York-Based Fullstack Developer and IT professional with a passion for creating and
           continous learning.
         </p>
 
@@ -39,12 +39,12 @@ export default function HeroSection() {
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
         </div>
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:left-10">
-          <a target="_blank" href="/Hamil Dimapanat.pdf">
+          <a target="_blank" href="/Hamil_Dimapanat.pdf">
             <MovingBorderBtn
               borderRadius="0.5rem"
               className="p-3 font-semibold"
             >
-              <p>🚨 Available for Work</p>
+              <p>🚨 My Resume</p>
             </MovingBorderBtn>
           </a>
         </div>

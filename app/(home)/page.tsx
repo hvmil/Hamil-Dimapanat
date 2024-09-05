@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Hobbies from "./components/Hobbies";
 
 
 export default function page() {
@@ -17,6 +18,7 @@ export default function page() {
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
         <Projects />
+        <Hobbies/>
         <Footer />
       </div>
     </div>
