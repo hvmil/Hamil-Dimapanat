@@ -17,7 +17,7 @@ export default function Navbar({className}:{className?: string}) {
       icon: SiGithub,
     },
     {
-      link: "https://www.instagram.com/blackcherryseltzer.jpg/",
+      link: "https://www.instagram.com/",
       label: "Instagram",
       icon: SiInstagram,
     },
