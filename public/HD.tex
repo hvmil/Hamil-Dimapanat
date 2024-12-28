@@ -1,0 +1,256 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+
+% Reduce space between bullet points and titles
+\usepackage{enumitem}
+\setlist[itemize]{topsep=0pt, itemsep=-1ex, partopsep=1ex, parsep=1ex}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% Resume Definitions
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{5.5pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+\newcommand{\headerNoLine} [1] {
+    {\hspace*{-18pt}\vspace*{5.5pt} \textsc{#1}}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+
+% Document starts here
+\begin{document}
+\vspace*{-40pt}
+\fontsize{10}{11}\selectfont
+
+% Profile
+\vspace*{-18pt}
+\begin{center}
+    \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xc>{\raggedleft\arraybackslash}X}
+        \hspace*{-3em} Yonkers, NY & \vspace{-3mm} {\Huge \scshape{Hamil Dimapanat}} & dimapanat.hamil@gmail.com \hspace*{-3em} \\
+ 
+        \hspace*{-3em} \href{https://github.com/hvmil}{github.com/hvmil} &  IT Professional & \href{https://www.hamil-dimapanat.com/}{hamil-dimapanat.com}\hspace*{-3em} \\
+    \end{tabularx}
+\end{center}
+
+\vspace{-2mm}
+% \hspace*{-18pt} \hrulefill \\
+% \textbf{Objective:} To leverage my Computer Science background and skills in IT support, system administration, and cloud computing in a dynamic IT role, while continuously expanding my knowledge and expertise in information technology and data management.
+
+
+%==== Education ====%
+
+\header{Education}
+\textbf{State University of New York at New Paltz}\hfill New Paltz, NY\\
+% BS Computer Science \hfill Sep 2019 - Dec 2023\\
+B.S. Computer Science \hfill 2019-2023\\
+% \vspace{-2mm}
+% \begin{itemize}[leftmargin=0.5cm]
+% \setlength\itemsep{-1mm}
+% 	\item Relevant Coursework: Data Structures and Algorithms / Object Oriented Programming/ Software Engineering / Operating Systems / Data Science / Cyber Security Fundamentals
+% \end{itemize}
+
+% =======Certifications==========%
+\vspace{0mm}
+\header{Certifications}
+\vspace{0mm}
+
+\href{https://www.credly.com/badges/b2b0c37e-8bad-4c8c-aabf-d58ddf403292}{\textbf{AWS Certified Cloud Practitioner}}\hfill March 2024\\
+\vspace{0mm}
+\href{https://www.credly.com/badges/2817621d-e0e1-4dd2-b066-66265586aaf2}{\textbf{CompTIA Security+ (SY0-701) }}\hfill December 2024\\
+
+\vspace{0mm}
+
+%==== Experience ====%
+\header{Professional Experience}
+\vspace{-0.5mm}
+\textbf{Desktop Support Specialist} \hfill New York, NY\\
+\textit{Mount Sinai Health System - Phillips School of Nursing} \hfill August 2024 - Present\\
+\vspace{-2.5mm}
+\begin{itemize}[leftmargin=0.5cm]
+\setlength\itemsep{-1mm}
+    \item Provided end-user support using ServiceNow for incident management, resolving hardware/software issues, and minimizing downtime.
+
+    \item Managed and supported a variety of network-connected devices including printers, scanners, and mobile devices (VoIPs, WOWs, laptops, Macs, tablets, and smartphones)
+    
+    \item Reimaged workstations, deploying Mount Sinai Health System's standardized operating system images across a diverse set of PCs while ensuring compliance with security policies.
+    \item Manage Moodle LMS and provided training, support, and assistance to faculty, students, and staff. 
+    \item Managed applications such as Zoom, ECHO 360, ExamSoft, Campus Labs Survey 
+    \item Coordinated workstation relocations and hardware upgrades, managing device provisioning, deployment, and network configurations.
+
+    % \item Administered access permissions and identity management through SailPoint, ensuring secure and appropriate access to network resources via role-based access controls (RBAC)
+    \item Developed a student-facing React.js web application to streamline troubleshooting, providing quick access to guides and links addressing common technical issues. Styled with Tailwind CSS and deployed on Github Pages.
+\end{itemize}
+\vspace*{0mm}
+
+\header{Skills}
+\begin{tabular}{ l l }
+
+        % \textbf{Networking Protocols:}    & SSH, TCP/IP, DNS, DHCP, HTTP/S, FTP, VLAN \\
+        
+        \textbf{Scripting:}    & Bash, PowerShell, Python \\
+        \textbf{Programming Languages:}    & Python, Typescript, JavaScript, Java, SQL, GraphQL \\
+        \textbf{Security:}    & SIEMs, Vulnerability Assessments, Risk Assessments, Disaster Recovery \\ 
+        & Firewalls, VPN\\
+        \textbf{Web Frameworks/Libraries:} & React, Redux Toolkit, Express, Flask \\
+        \textbf{Data:} & PostgreSQL, MongoDB, MySQL\\
+        % \textbf{CI/CD:} & Github Actions, MongoDB, MySQL\\
+        \textbf{Operating Systems:} & Windows, macOS, Linux, iOS, Android \\
+        % \textbf{CyberSecurity:} & Triage, Vulnerability Assessments, Attack Surface Analysis\\
+        % \textbf{Hardware:} &  PCs, Laptops, Printers, Mobile Devices, Network Devices \\
+        % \textbf{Software/Applications:} &  Microsoft Office Suite, Active Directory, Office 365\\
+        % \textbf{Soft Skills:} &  Clear Communication, Team Collaboration, Customer Support\\&Troubleshooting, Time Management, \\
+\end{tabular}
+% \vspace{-1mm}
+\vspace{-0.5mm} 
+% \textbf{Web Development TA} \hfill New York, NY\\
+% \textit{Code Nation} \hfill August 2023 - December 2023\\
+% \vspace{-2.5mm}
+% \begin{itemize}[leftmargin=0.5cm]
+% \setlength\itemsep{-1mm}
+%         \item Coordinated meetings, documented minutes, and served as a liaison between project teams, stakeholders, and senior management while delivering web development instruction to students.
+% \end{itemize}
+
+
+
+%==== Projects ====%
+\header{Relevant Experience / Projects}
+
+
+
+
+\textbf{Cyber Security Training (THM SOC Analyst I Pathway)} \hspace{-1mm} {\sl - Triage, Incident Response, Cyber Threat Trends, MITRE ATT\&CK framework, TTPs, Cyber Kill Chain, IOCs}\hfill New Paltz, NY\\
+Try Hack Me Labs \hfill August 2024 - Present\\
+% {\textbf{SUNY New Paltz TicketSense}} {\sl HTML/CSS/Javascript, spaCy, Python, Flask, Heroku, SQL, fastText} \\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=0.5cm]
+\setlength\itemsep{-2mm}
+    \item Engaged in hands-on labs using SIEM tools like Splunk for log analysis and threat detection.
+    \item Utilized network tools such as Wireshark to capture and troubleshoot network issues, analyze network protocols and ensure network security.
+    \item Developed a deep understanding of the MITRE ATT\&CK framework and the TTPs used by adversaries and how to implement the Cyber Kill Chain model for incident response.
+    \item Gained hands-on experience in threat hunting, network analysis, malware triage and forensic investigation. 
+    \item Developed skills in creating detections rules, monitoring security events and identifying Indicators of Compromise (IOCs).
+\end{itemize}
+
+
+% \vspace{-1mm}
+\textbf{Software Engineer / Data Analyst} \hspace{-1mm} {\sl -JavaScript, spaCy, Python, Flask, Heroku, SQL}\hfill New Paltz, NY\\
+SUNY New Paltz TicketSense \hfill Aug 2023 - Dec 2023\\
+% {\textbf{SUNY New Paltz TicketSense}} {\sl HTML/CSS/Javascript, spaCy, Python, Flask, Heroku, SQL, fastText} \\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=0.5cm]
+\setlength\itemsep{-2mm}
+    \item Developed a machine learning model to classify IT tickets, enhancing help desk efficiency and SLA compliance.
+    \item Implemented osTicket REST API and conducted API testing to ensure reliability and accuracy.
+    \item Conducted API testing using Postman to ensure the reliability and accuracy of automated ticket submissions.
+    \item Utilized Flask for creating a lightweight yet powerful web framework to support the backend.
+    % \item Applied secure coding practices to prevent vulnerabilities and deployed the application on Heroku.
+\end{itemize}
+
+% \vspace{-1.5mm}
+% \textbf{Full-Stack Developer} \hspace{-1mm} {\sl -MongoDB, React, Tailwind, Express, Node.JS, Fly IO}\hfill New Paltz, NY\\
+% Rate My SUNY \hfill Jan 2024 - Present\\
+
+% % {\textbf{Rate My SUNY}} {\sl MongoDB, React, Tailwind, Express, Node, JWT, Bcyrpt, Fly IO } \\
+% \vspace{-2mm}
+% \begin{itemize}[leftmargin=0.5cm]
+% \setlength\itemsep{-2mm}
+%     \item Designed a scalable review platform for SUNY campuses leveraging the MERN stack.
+%     \item Established a secure user authentication and authorization process, and deployed on Fly IO to ensure high performance under heavy user traffic.
+% \end{itemize}
+
+% ================================================%
+% \vspace{-1.5mm}
+% \textbf{Software Engineer} \hspace{1mm} {\sl -Python, Bootstrap, HTML/CSS/JS, SQL, PHP}\hfill New Paltz, NY\\
+% Printer Dynamix (Capstone Project) \hfill Jan 2023 - May 2023\\
+
+% % {\textbf{Printer Dynamix (Capstone Project)}} {\sl Python, Bootstrap, HTML/CSS/JS, SQL, PHP} \\
+% \vspace{-2mm}
+% \begin{itemize}[leftmargin=0.5cm]
+% \setlength\itemsep{-2mm}
+%     \item Engineered a centralized printer management system using Python and PHP, streamlining configuration and troubleshooting.
+%     \item Developed an intelligent printer selection algorithms with Pandas, Geopy, and SQL, enabling efficient proximity-based printer discovery.
+%      \item Collaborated with a cross-functional team to design a responsive, user-friendly interface using Bootstrap and custom HTML/CSS, enhancing overall user experience and simplifying printer-related tasks.
+
+% \end{itemize}
+
+% =============================================================
+
+\vspace*{-1.5mm}
+
+\textbf{Fullstack Engineer} \hspace{1mm} {\sl -React, GPT-4 Vision, Node, Prompting, Mongo DB}\hfill New Paltz, NY\\
+Flavor Frames\hfill Mar 2024 - Present\\
+
+% {\textbf{Flavor Frames}} {\sl React, GPT-4 Vision, Node, Express, Prompting, Mongo DB, JWT,  \\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=0.5cm]
+\setlength\itemsep{-2mm}
+    \item Solved meal planning challenges by using OpenAI's image recognition to turn ingredient photos into personalized recipe suggestions.
+    \item Enabled scalable user account creation, recipe saving, and editing, handling thousands of users efficiently with MongoDB.
+    \item Implemented JWT for secure user access and integrated best practices like input validation and HTTPS enforcement.
+    \item Utilized React hooks and state management to create a seamless user experience.
+\end{itemize}
+
+\vspace{-0.5mm}
+
+% \vspace{-2mm}
+% \textbf{Freelance Filmmaker \& Photographer} \hfill Yonkers, NY\\
+% \textit{Filmmaker \& Photographer} \hfill August 2018 - Present\\
+% \vspace{-2mm}
+% \begin{itemize}[leftmargin=0.5cm]
+% \setlength\itemsep{-1mm}
+%         \item Served Absolut Vodka and over 50 other clients by planning, filming, and editing projects.
+% \end{itemize}
+% \vspace{-2mm}
+% \textbf{Sales Associate} \hfill Yonkers, NY\\
+% \textit{7 Eleven} \hfill June 2019 - August 2019\\
+% \vspace{-2mm}
+% \begin{itemize} 
+% \setlength\itemsep{0em}
+%         \item Managed transactions, resolved customer issues, and maintained checkout cleanliness.
+% \end{itemize}
+\vspace{-2mm}
+% \textbf{Green Team Associate} \hfill Yonkers, NY\\
+% \textit{Groundworks Hudson Valley} \hfill June 2018 - August 2018\\
+% \vspace{-2mm}
+% \begin{itemize} 
+% \setlength\itemsep{0em}
+%         \item Led 12+ habitat restoration projects and engaged 100+ volunteers through community and school collaborations.
+% \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
