@@ -18,7 +18,7 @@ export default function page() {
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
         <Projects />
-        <Hobbies/>
+        {/* <Hobbies/> */}
         <Footer />
       </div>
     </div>
