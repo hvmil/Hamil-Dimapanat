@@ -2,29 +2,24 @@
 import React from 'react'
 import Title from "./Title"
 import { HoverEffect } from "../../../components/ui/card-hover"
-import { SiAmazonaws, SiExpress, SiGit, SiJavascript, SiMongodb, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiTypescript } from "react-icons/si"
+import { SiGnubash, SiAmazonaws, SiExpress, SiGit, SiJavascript, SiMongodb, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiTypescript } from "react-icons/si"
+import { TbBrandAnsible } from "react-icons/tb";
+import { GrVmware } from "react-icons/gr";
+import { FaWindows } from "react-icons/fa";
 
 export default function () {
     const skills = [
         {
-            text: "React",
-            Icon: SiReact
+            text: "Bash",
+            Icon: SiGnubash
         },
         {
-            text: "Express",
-            Icon: SiExpress
+            text: "VMWare",
+            Icon: GrVmware
         },
         {
-            text: "MongoDB",
-            Icon: SiMongodb
-        },
-        {
-            text: "Node",
-            Icon: SiNodedotjs
-        },
-        {
-            text: "AWS",
-            Icon: SiAmazonaws
+            text: "Ansible",
+            Icon: TbBrandAnsible
         },
         {
             text: "Python",
@@ -35,12 +30,32 @@ export default function () {
             Icon: SiJavascript
         },
         {
-            text: "SQL",
-            Icon: SiPostgresql
-        },
-        {
             text: "GIT",
             Icon: SiGit,
+        },
+        {
+            text: "Windows Server",
+            Icon: FaWindows
+        },
+        {
+            text: "React",
+            Icon: SiReact
+        },
+        {
+            text: "Express",
+            Icon: SiExpress
+        },
+        {
+            text: "Node",
+            Icon: SiNodedotjs
+        },
+        {
+            text: "AWS",
+            Icon: SiAmazonaws
+        },
+        {
+            text: "SQL",
+            Icon: SiPostgresql
         },
     ]
 

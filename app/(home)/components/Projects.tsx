@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  SiAmazonaws,
+  SiGnubash,
   SiAmazonroute53,
   SiAmazons3,
   SiBootstrap,
@@ -18,6 +18,9 @@ import {
   SiSqlalchemy,
   SiTypescript,
 } from "react-icons/si";
+import { TbBrandAnsible } from "react-icons/tb";
+import { GrVmware } from "react-icons/gr";
+import { FaWindows } from "react-icons/fa";
 import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -25,6 +28,20 @@ import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 
 export default function Projects() {
   const projects = [
+    {
+      title: "Ansible Automation",
+      tech: [SiPython, TbBrandAnsible, SiGnubash, FaWindows],
+      link: "https://github.com/hvmil/Ansible_ESXI",
+      cover: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODZuMjVrZmtsdWJxMmFkbThscnN0bTNvdXg4Z3RhaTB0cmQxOWdpMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K9yNFmyOgOvH3Oc1vp/giphy.gif",
+      background: "bg-indigo-500",
+    },
+    {
+      title: "VMWare Administration",
+      tech: [GrVmware, SiGnubash, SiPython],
+      link: "https://github.com/hvmil/",
+      cover: "/vcenter_crop.png",
+      background: "bg-indigo-500",
+    },
     {
       title: "Printer Dynamix",
       tech: [SiPython, SiBootstrap, SiJavascript, SiMysql, SiPhp],
